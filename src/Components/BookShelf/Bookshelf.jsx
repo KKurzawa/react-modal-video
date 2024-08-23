@@ -17,7 +17,6 @@ export class bookshelf extends Component {
         setTimeout(() => {
             this.setState({ isOpen: true });
         }, 500)
-        // this.setState({ isOpen: true });
     }
     render() {
         return (
