@@ -13,6 +13,22 @@
     transition: .25s linear;
   }
 
-  .book:hover{
+  #Something:hover{
     background-color: rgba(134, 16, 39, 0.555);
+  }
+
+  #Missing:hover{
+    background-color: rgba(26, 26, 113, 0.438);
+  }
+
+  #Cover:hover{
+    background-color: rgba(19, 71, 19, 0.455);
+  }
+
+  #Yaga:hover{
+    background-color: rgba(117, 117, 41, 0.485);
+  }
+
+  #Uncle:hover{
+    background-color: rgba(119, 92, 41, 0.387);
   }
