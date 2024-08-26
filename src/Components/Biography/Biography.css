@@ -1,0 +1,18 @@
+.main-bio{
+    position: relative;
+}
+
+.image-container{
+    background-color: var(--BG-COLOR-TWO);
+}
+
+.bio-inner-container,
+.icon-container{
+    color: var(--FONT-COLOR-ONE);
+    background-color: var(--BG-COLOR-TWO);
+}
+
+.bio-icon{
+    font-size: 3rem;
+    margin: .75rem;
+}

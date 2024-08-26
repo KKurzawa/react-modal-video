@@ -1,5 +1,19 @@
 *{
+  /* css reset */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  /* variables */
+
+  /* colors */
+  --BG-COLOR-ONE: #61341B;
+  --BG-COLOR-TWO: #1E0D08;
+  --BG-COLOR-THREE: #5B260B;
+  --BG-COLOR-FOUR: #FEC22F;
+
+  --FONT-COLOR-ONE: #F6E0CA;
+
+  /* borders */
+  --BORDER-ONE: solid 1px var(--FONT-COLOR-ONE);
 }
