@@ -6,13 +6,13 @@ const NavLinks = [
     },
     {
         key: 2,
-        id: '#Animations',
-        title: 'Animations'
+        id: '#Contact',
+        title: 'Contact'
     },
     {
         key: 3,
-        id: '#Contact',
-        title: 'Contact'
+        id: '#Animations',
+        title: 'Animations'
     },
 ]
 
