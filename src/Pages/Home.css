@@ -1,6 +1,8 @@
 .body-container{
     position: relative;
     z-index: 1;
+    border-top: var(--BORDER-FIVE);
+    border-bottom: var(--BORDER-FIVE);
 }
 
 .body-container::before{

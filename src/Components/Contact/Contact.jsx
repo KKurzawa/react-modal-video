@@ -44,10 +44,10 @@ const Contact = () => {
             })
     }
     return (
-        <main id='Contact' className='contact-main flex flex-col items-center w-full h-auto'>
-            <header className='my-5 text-center text-3xl'>Contact Me</header>
-            <form onSubmit={handleSubmit} className='contact-form flex flex-col items-center w-[50%] h-auto gap-1 rounded-lg'>
-                <article className='form-container flex flex-col items-center gap-1 w-[90%] h-[90%] py-5'>
+        <main id='Contact' className='contact-main grid grid-cols-2 justify-items-end items-center w-full h-auto'>
+            <header className='contact-title my-5 text-3xl col-start-1 p-5 mr-5'>Contact Me</header>
+            <form onSubmit={handleSubmit} className='contact-form col-start-1 flex flex-col items-center w-[90%] h-auto gap-1 mr-5 rounded-2xl'>
+                <article className='form-container flex flex-col items-center gap-1 w-[90%] h-[90%] pb-5 pt-10'>
                     <input
                         className='form-input w-full'
                         type='text'

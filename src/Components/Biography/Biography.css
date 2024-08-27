@@ -2,14 +2,40 @@
     position: relative;
 }
 
+.bio-title{
+    width: fit-content;
+    border-radius: 50%;
+    background-color: var(--BG-COLOR-TWO);
+    color: var(--FONT-COLOR-ONE);
+    box-shadow: var(--BORDER-TWO);
+}
+
 .image-container{
     background-color: var(--BG-COLOR-TWO);
+    box-shadow: var(--BORDER-TWO);
+    border-radius: 50%;
+    height: 120%;
+    width: 105%;
+    object-fit: cover;
+}
+
+.image-container{
+   
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: sepia(.5);
 }
 
 .bio-inner-container,
 .icon-container{
     color: var(--FONT-COLOR-ONE);
     background-color: var(--BG-COLOR-TWO);
+    box-shadow: var(--BORDER-TWO);
 }
 
 .bio-icon{

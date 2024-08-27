@@ -4,20 +4,35 @@
 
 .contact-form{
     background-color: var(--BG-COLOR-TWO);
+    box-shadow: var(--BORDER-TWO);
+}
+
+.contact-title{
+    background-color: var(--BG-COLOR-TWO);
+    box-shadow: var(--BORDER-TWO);
+    color: var(--FONT-COLOR-ONE);
+    width: fit-content;
+    border-radius: 50%;
 }
 
 .form-input{
     outline: none;
-    border: solid 2px black;
-    border-radius: 5px;
+    border-radius: .5rem;
     padding-left: .5rem;
     padding-right: .5rem;
-    background-color: var(--FONT-COLOR-ONE);
+    background-color: var(--BG-COLOR-SIX);
     font-size: 1.25rem;
+    color: var(--BG-COLOR-TWO);
+}
+
+.form-input::placeholder{
+    color: var(--FONT-COLOR-TWO);
 }
 
 .submit-btn{
     border: solid 2px black;
     border-radius: 5px;
-    background-color: var(--FONT-COLOR-ONE);
+    background-color: var(--BG-COLOR-SIX);
+    color: var(--BG-COLOR-TWO);
+    box-shadow: var(--BORDER-THREE);
 }

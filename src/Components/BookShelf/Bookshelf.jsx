@@ -20,9 +20,9 @@ export class bookshelf extends Component {
     }
     render() {
         return (
-            <main id='Animations' className='animations flex flex-col items-center w-full py-5'>
-                <h2 className='mb-5 text-3xl'>Animations</h2>
-                <section className='bookshelf-container flex flex-col items-center w-[50%] rounded-lg'>
+            <main id='Animations' className='animations grid grid-cols-3 items-center w-full py-10 ml-5'>
+                <h2 className='animations-title col-span-2 col-start-2 mb-5 p-5 text-3xl'>Animations</h2>
+                <section className='bookshelf-container col-span-2 col-start-2 flex flex-col items-center w-[75%] rounded-2xl'>
                     <article className='flex justify-center items-baseline h-fit mt-10'>
                         {Videos.map((item) => (
                             <section key={item.key}>

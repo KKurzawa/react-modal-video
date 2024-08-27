@@ -11,9 +11,21 @@
   --BG-COLOR-TWO: #1E0D08;
   --BG-COLOR-THREE: #5B260B;
   --BG-COLOR-FOUR: #FEC22F;
+  --BG-COLOR-FIVE: #B46D32;
+  --BG-COLOR-SIX: #f4debe;
+  --BG-COLOR-SEVEN: #FB5731;
 
   --FONT-COLOR-ONE: #F6E0CA;
+  --FONT-COLOR-TWO: #1e0d0875;
 
   /* borders */
-  --BORDER-ONE: solid 1px var(--FONT-COLOR-ONE);
+  --BORDER-ONE: solid 1px var(--BG-COLOR-SIX);
+  --BORDER-TWO: 
+  0 0 0 1px var(--BG-COLOR-SIX),
+  0 0 0 3px var(--BG-COLOR-TWO);
+  --BORDER-THREE: 
+  0 0 0 .5px var(--BG-COLOR-TWO),
+  0 0 0 1px var(--BG-COLOR-SIX);
+  --BORDER-FOUR: solid 1px var(--BG-COLOR-ONE);
+  --BORDER-FIVE: solid 2px var(--BG-COLOR-TWO);
 }
