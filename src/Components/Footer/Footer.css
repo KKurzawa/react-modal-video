@@ -3,3 +3,47 @@
     background-color: var(--BG-COLOR-TWO);
     border-top: var(--BORDER-ONE);
 }
+
+.top-btn,
+.email-btn,
+.phone-btn,
+.dev-link{
+    position: relative;
+}
+
+.top-btn::before,
+.email-btn::before,
+.phone-btn::before,
+.dev-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    border-bottom: var(--BORDER-ONE);
+    transition: .5s linear all;
+}
+
+.top-btn::after,
+.email-btn::after,
+.phone-btn::after,
+.dev-link::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    border-bottom: var(--BORDER-ONE);
+    transition: .5s linear all;
+}
+
+.top-btn:hover:before,
+.email-btn:hover:before,
+.phone-btn:hover:before,
+.dev-link:hover:before,
+.top-btn:hover:after,
+.email-btn:hover:after,
+.phone-btn:hover:after,
+.dev-link:hover:after{
+    width: 50%;
+}

@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar'
 
 const Header = () => {
     return (
-        <header id='Top' className='header-main flex justify-between'>
+        <header id='Top' className='header-main flex justify-between items-center'>
             <section className='flex-col m-10'>
                 <h1 className='text-6xl'>Tamara Finlay</h1>
                 <h2 className='text-3xl'>Stop Motion Animation</h2>

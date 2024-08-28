@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className='navbar flex gap-10 m-10'>
             {NavLinks.map((item) => (
                 <button
-                    className='text-3xl'
+                    className='nav-link w-fit h-fit text-3xl'
                     onClick={() => setTimeout(() => {
                         const element = document.querySelector(item.id);
                         element?.scrollIntoView({ behavior: 'smooth' })

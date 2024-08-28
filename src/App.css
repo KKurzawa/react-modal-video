@@ -29,3 +29,8 @@
   --BORDER-FOUR: solid 1px var(--BG-COLOR-ONE);
   --BORDER-FIVE: solid 2px var(--BG-COLOR-TWO);
 }
+
+body{
+  background-color: var(--BG-COLOR-TWO);
+  
+}
