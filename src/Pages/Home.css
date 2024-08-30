@@ -3,6 +3,7 @@
     z-index: 1;
     border-top: var(--BORDER-FIVE);
     border-bottom: var(--BORDER-FIVE);
+    font-family: var(--FONT-FOUR);
 }
 
 .body-container::before{

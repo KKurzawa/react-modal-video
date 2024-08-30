@@ -3,7 +3,7 @@ import NavLinks from '../../Utils/NavLinks'
 
 const Navbar = () => {
     return (
-        <nav className='navbar flex gap-10 m-10'>
+        <nav className='navbar flex gap-16 m-10'>
             {NavLinks.map((item) => (
                 <button
                     className='nav-link w-fit h-fit text-3xl'

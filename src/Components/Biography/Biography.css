@@ -14,9 +14,10 @@
     background-color: var(--BG-COLOR-TWO);
     box-shadow: var(--BORDER-TWO);
     border-radius: 50%;
-    height: 120%;
+    height: 115%;
     width: 105%;
     object-fit: cover;
+    flex-shrink: 3;
 }
 
 .profile-pic{
@@ -25,6 +26,9 @@
     width: 100%;
     object-fit: cover;
     filter: sepia(.5);
+    /* flex-grow: 0; */
+    flex-shrink: 3;
+    /* display: block; */
 }
 
 .bio-inner-container,
@@ -34,7 +38,21 @@
     box-shadow: var(--BORDER-TWO);
 }
 
+.icon-btn{
+    /* background-color: var(--FONT-COLOR-ONE); */
+    /* width: fit-content; */
+}
 .bio-icon{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: .75rem;
+    background-color: var(--BG-COLOR-TWO);
+    padding: .25rem;
+    color: var(---FONT-COLOR-ONE);
+    border-radius: 15%;
+    transition: all .5s linear;
+}
+
+.bio-icon:hover{
+    background-color: var(--FONT-COLOR-ONE); 
+    color: var(--BG-COLOR-TWO);
 }

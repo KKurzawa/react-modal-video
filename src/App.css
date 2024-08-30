@@ -14,6 +14,7 @@
   --BG-COLOR-FIVE: #B46D32;
   --BG-COLOR-SIX: #f4debe;
   --BG-COLOR-SEVEN: #FB5731;
+  --BG-COLOR-SEVEN: #f6e0ca77;
 
   --FONT-COLOR-ONE: #F6E0CA;
   --FONT-COLOR-TWO: #1e0d0875;
@@ -28,6 +29,13 @@
   0 0 0 1px var(--BG-COLOR-SIX);
   --BORDER-FOUR: solid 1px var(--BG-COLOR-ONE);
   --BORDER-FIVE: solid 2px var(--BG-COLOR-TWO);
+
+  /* fonts */
+  --FONT-ONE: "Amatic SC", sans-serif; 
+  --FONT-TWO: "LXGW WenKai Mono TC", monospace; 
+  --FONT-THREE: "Pangolin", cursive;
+  --FONT-FOUR: "EB Garamond", serif;
+  
 }
 
 body{

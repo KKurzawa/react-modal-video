@@ -2,4 +2,6 @@
     color: var(--FONT-COLOR-ONE);
     background-color: var(--BG-COLOR-TWO);
     border-bottom: var(--BORDER-ONE);
+    font-family: var(--FONT-FOUR);
+    font-weight: bold;
 }

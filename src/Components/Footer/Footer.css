@@ -2,18 +2,18 @@
     color: var(--FONT-COLOR-ONE);
     background-color: var(--BG-COLOR-TWO);
     border-top: var(--BORDER-ONE);
+    font-family: var(--FONT-FOUR);
+    font-weight: bold;
 }
 
 .top-btn,
 .email-btn,
-.phone-btn,
 .dev-link{
     position: relative;
 }
 
 .top-btn::before,
 .email-btn::before,
-.phone-btn::before,
 .dev-link::before{
     content: '';
     position: absolute;
@@ -26,7 +26,6 @@
 
 .top-btn::after,
 .email-btn::after,
-.phone-btn::after,
 .dev-link::after{
     content: '';
     position: absolute;
@@ -39,11 +38,9 @@
 
 .top-btn:hover:before,
 .email-btn:hover:before,
-.phone-btn:hover:before,
 .dev-link:hover:before,
 .top-btn:hover:after,
 .email-btn:hover:after,
-.phone-btn:hover:after,
 .dev-link:hover:after{
     width: 50%;
 }

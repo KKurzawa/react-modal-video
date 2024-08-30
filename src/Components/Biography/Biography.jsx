@@ -1,5 +1,4 @@
 import './Biography.css'
-import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaVimeo } from "react-icons/fa";
@@ -9,7 +8,7 @@ import Tamara from '/Tamara2.jpg'
 const Biography = () => {
     return (
         <main id='Biography' className='main-bio grid grid-cols-3 justify-center items-center justify-items-center gap-8 pt-20 pr-10 pl-10 pb-10'>
-            <article className='image-container col-span-1'>
+            <article className='image-container flex col-span-1'>
                 <img className='profile-pic p-5' src={Tamara} />
             </article>
             <article className='bio-container col-span-2 flex flex-col justify-center items-start w-full h-full gap-3 rounded-lg'>
@@ -24,17 +23,14 @@ const Biography = () => {
                         >Kresge Artist Fellowship</button>
                     </span> for animation.</p>
                 </section>
-                <section className='icon-container flex justify-start gap-1 rounded-2xl'>
-                    <button onClick={() => setTimeout(() => {
-                        window.open('https://www.google.com/', '_blank')
-                    }, 500)}><FaFacebook className='bio-icon' /></button>
-                    <button onClick={() => setTimeout(() => {
+                <section className='icon-container flex justify-start gap-2 rounded-2xl'>
+                    <button className='icon-btn' onClick={() => setTimeout(() => {
                         window.open('https://www.google.com/', '_blank')
                     }, 500)}><FaInstagramSquare className='bio-icon' /></button>
-                    <button onClick={() => setTimeout(() => {
+                    <button className='icon-btn' onClick={() => setTimeout(() => {
                         window.open('https://www.google.com/', '_blank')
                     }, 500)}><FaYoutube className='bio-icon' /></button>
-                    <button onClick={() => setTimeout(() => {
+                    <button className='icon-btn' onClick={() => setTimeout(() => {
                         window.open('https://www.google.com/', '_blank')
                     }, 500)}><FaVimeo className='bio-icon' /></button>
                 </section>
