@@ -16,7 +16,7 @@ const Biography = () => {
                 <section className='bio-inner-container p-5 w-full h-auto rounded-2xl'>
                     <p className='bio p-3 text-xl'>Tamara Finlay was born in Dearborn, MI, in 1979 and brought up by grandparents who emigrated to the U.S. from Ukraine after World War II. Growing up, she was scolded for “drawing ponies” when there were “more important” things to do. Her school career was spent taking academic classes, while sneaking in as much art as she could. The result: a bachelor’s degree in Slavic languages, a few credits shy of a fine arts minor from Brooklyn College. Since then, she has been a teacher, lead vocalist in three bands, studied stop motion, had a baby, been a refugee caseworker, and, in 2022, was diagnosed with ADHD.  In 2024 Tamara was awarded the <span>
                         <button
-                            className='underline underline-offset-2'
+                            className='kresge-link underline underline-offset-2 h-fit rounded-lg px-1 pb-1'
                             onClick={() => setTimeout(() => {
                                 window.open('https://kresgeartsindetroit.org/artist/tamara-finlay/', '_blank')
                             }, 500)}

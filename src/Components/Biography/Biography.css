@@ -38,6 +38,15 @@
     box-shadow: var(--BORDER-TWO);
 }
 
+.kresge-link{
+    transition: all .25s linear;
+}
+
+.kresge-link:hover{
+    background-color: var(--FONT-COLOR-ONE);
+    color: var(--BG-COLOR-TWO);
+}
+
 .bio-icon{
     font-size: 3.5rem;
     margin: .75rem;
