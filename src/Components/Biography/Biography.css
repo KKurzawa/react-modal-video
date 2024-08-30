@@ -38,10 +38,6 @@
     box-shadow: var(--BORDER-TWO);
 }
 
-.icon-btn{
-    /* background-color: var(--FONT-COLOR-ONE); */
-    /* width: fit-content; */
-}
 .bio-icon{
     font-size: 3.5rem;
     margin: .75rem;
