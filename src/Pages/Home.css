@@ -9,11 +9,11 @@
 .body-container::before{
     position: absolute;
     content: '';
-    background-image: url('/Table7.jpg');
+    background-image: url('/Table.jpg');
     background-size: cover;
     width: 100%;
     height: 100%;
-    opacity: .45;
     z-index: 0;
-    filter: sepia(.45);
+    opacity: .85;
+    /* filter: sepia(.45); */
 }
