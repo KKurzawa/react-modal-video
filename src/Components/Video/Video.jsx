@@ -22,7 +22,7 @@ const Video = () => {
     }
 
     return (
-        <div id='Animations' className='grid grid-cols-3 my-10 ml-10'>
+        <div id='Animations' className='grid grid-cols-3 mt-10 mb-20 ml-10'>
             <header className='animations-title relative w-fit my-5 text-3xl col-start-2 p-5'>Animations</header>
             <main
                 className='video-main relative col-span-2 col-start-2 px-[4.5rem] rounded-2xl'
@@ -82,7 +82,7 @@ const Video = () => {
                             left: '50%',
                             translate: '-50%',
                             display: 'flex',
-                            gap: '.25rem'
+                            gap: '.75rem'
                         }}>
                         {videoInfo.map((_, index) => (
                             <button
