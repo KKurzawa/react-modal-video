@@ -1,18 +1,16 @@
 .footer-main{
     color: var(--FONT-COLOR-ONE);
     background-color: var(--BG-COLOR-TWO);
-    border-top: var(--BORDER-ONE);
+    border-top: var(--BORDER-NINE);
     font-family: var(--FONT-FOUR);
     font-weight: bold;
 }
 
-.top-btn,
 .email-btn,
 .dev-link{
     position: relative;
 }
 
-.top-btn::before,
 .email-btn::before,
 .dev-link::before{
     content: '';
@@ -21,10 +19,9 @@
     bottom: 0;
     width: 0;
     border-bottom: var(--BORDER-ONE);
-    transition: .5s linear all;
+    transition: .25s linear all;
 }
 
-.top-btn::after,
 .email-btn::after,
 .dev-link::after{
     content: '';
@@ -33,13 +30,11 @@
     bottom: 0;
     width: 0;
     border-bottom: var(--BORDER-ONE);
-    transition: .5s linear all;
+    transition: .25s linear all;
 }
 
-.top-btn:hover:before,
 .email-btn:hover:before,
 .dev-link:hover:before,
-.top-btn:hover:after,
 .email-btn:hover:after,
 .dev-link:hover:after{
     width: 50%;

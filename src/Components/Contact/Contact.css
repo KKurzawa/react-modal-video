@@ -1,3 +1,15 @@
+.contact-header-container{
+    position: relative;
+}
+
+.contact-title{
+    width: fit-content;
+    border-radius: 50%;
+    background-color: var(--BG-COLOR-TWO);
+    color: var(--FONT-COLOR-ONE);
+    box-shadow: var(--BORDER-TWO);
+}
+
 .contact-main{
     position: relative;
 }
@@ -7,12 +19,8 @@
     box-shadow: var(--BORDER-TWO);
 }
 
-.contact-title{
-    background-color: var(--BG-COLOR-TWO);
-    box-shadow: var(--BORDER-TWO);
-    color: var(--FONT-COLOR-ONE);
-    width: fit-content;
-    border-radius: 50%;
+.header-container{
+    background-color: var(--FONT-COLOR-ONE);
 }
 
 .form-input{

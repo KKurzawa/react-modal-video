@@ -15,8 +15,9 @@
   --BG-COLOR-SIX: #f4debe;
   --BG-COLOR-SEVEN: #FB5731;
   --BG-COLOR-SEVEN: #f6e0ca77;
+  /* --BG-COLOR-EIGHT: #f4debe; */
 
-  --FONT-COLOR-ONE: #F6E0CA;
+  --FONT-COLOR-ONE: #f4debe;
   --FONT-COLOR-TWO: #1e0d0875;
 
   /* borders */
@@ -29,6 +30,16 @@
   0 0 0 1px var(--BG-COLOR-SIX);
   --BORDER-FOUR: solid 1px var(--BG-COLOR-ONE);
   --BORDER-FIVE: solid 2px var(--BG-COLOR-TWO);
+  --BORDER-SIX: 
+  0 0 0 1px var(--BG-COLOR-SIX),
+  0 0 0 5px var(--BG-COLOR-TWO),
+  0 0 0 6px var(--BG-COLOR-SIX);
+  --BORDER-SEVEN: solid 1px var(--BG-COLOR-TWO);
+  --BORDER-EIGHT: solid 2px var(--BG-COLOR-TWO);
+  --BORDER-NINE: solid 2px var(--BG-COLOR-SIX);
+  --BORDER-TEN: 
+  0 0 0 1px var(--BG-COLOR-TWO),
+  0 0 0 3px var(--BG-COLOR-TWO);
 
   /* fonts */
   --FONT-ONE: "Amatic SC", sans-serif; 

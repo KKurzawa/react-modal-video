@@ -1,7 +1,7 @@
 .nav-link{
     position: relative;
     padding-bottom: 2px;
-    transition: .5s linear all;
+    transition: .25s linear all;
 }
 
 .nav-link:before {
@@ -12,7 +12,7 @@
   left: 0;
   width: 0;
   border-bottom: var(--BORDER-ONE);  
-  transition: width 500ms ease-in-out;
+  transition: width .25s ease-in-out;
 }
 
 .nav-link:after {
@@ -23,7 +23,7 @@
     right: 0;
     width: 0;
     border-bottom: var(--BORDER-ONE);  
-    transition: width 500ms ease-in-out;
+    transition: width .25s ease-in-out;
   }
 
 .nav-link:hover:after,

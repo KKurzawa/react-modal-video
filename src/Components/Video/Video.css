@@ -1,13 +1,24 @@
+.animations-header-container{
+  position: relative;
+}
+
 .animations-title{
-    background-color: var(--BG-COLOR-TWO);
-    box-shadow: var(--BORDER-TWO);
-    color: var(--FONT-COLOR-ONE);
-    border-radius: 50%;
+  width: fit-content;
+  border-radius: 50%;
+  background-color: var(--BG-COLOR-TWO);
+  color: var(--FONT-COLOR-ONE);
+  box-shadow: var(--BORDER-TWO);
+}
+
+.animations-main{
+  border-bottom: var(--BORDER-NINE);
+  position: relative;
 }
 
 .video-main{
     background-color: var(--BG-COLOR-TWO);
     box-shadow: var(--BORDER-TWO);
+    aspect-ratio: 10/6;
 }
 
 .img-slider-img{
@@ -73,3 +84,40 @@
     height: 100%;
     width: 100%;
   }
+
+  .top-btn-container{
+    color: var(--BG-COLOR-TWO);
+    background-color: var(--BG-COLOR-SIX);
+    font-family: var(--FONT-FOUR);
+    font-weight: bold;
+    border-top: var(--BORDER-EIGHT);
+    border-bottom: var(--BORDER-EIGHT);
+    position: relative;
+  }
+
+  .top-btn-container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    border: var(--BORDER-NINE);
+    outline: var(--BORDER-EIGHT);
+    top: 50%;
+}
+
+  .top-btn{
+    width: fit-content;
+    border-radius: 5px;
+    background-color: var(--BG-COLOR-TWO);
+    color: var(--FONT-COLOR-ONE);
+    box-shadow: var(--BORDER-TWO);
+    position: relative;
+    transition: all .25s linear;
+  }
+
+  .top-btn:hover{
+    background-color: var(--FONT-COLOR-ONE);
+    color: var(--BG-COLOR-TWO);
+    box-shadow: var(--BORDER-TEN);
+    position: relative;
+  }
+

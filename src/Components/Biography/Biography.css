@@ -1,5 +1,6 @@
-.main-bio{
+.bio-header-container{
     position: relative;
+    border-top: var(--BORDER-NINE);
 }
 
 .bio-title{
@@ -10,12 +11,16 @@
     box-shadow: var(--BORDER-TWO);
 }
 
+.main-bio{
+    position: relative;
+}
+
 .image-container{
     background-color: var(--BG-COLOR-TWO);
     box-shadow: var(--BORDER-TWO);
     border-radius: 50%;
-    height: 115%;
-    width: 105%;
+    height: 110%;
+    width: 95%;
     object-fit: cover;
     flex-shrink: 3;
 }
@@ -26,9 +31,7 @@
     width: 100%;
     object-fit: cover;
     filter: sepia(.5);
-    /* flex-grow: 0; */
     flex-shrink: 3;
-    /* display: block; */
 }
 
 .bio-inner-container,
@@ -54,7 +57,7 @@
     padding: .25rem;
     color: var(---FONT-COLOR-ONE);
     border-radius: 15%;
-    transition: all .5s linear;
+    transition: all .25s linear;
 }
 
 .bio-icon:hover{

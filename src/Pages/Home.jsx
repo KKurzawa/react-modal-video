@@ -1,5 +1,4 @@
 import './Home.css'
-// import Bookshelf from '../Components/BookShelf/Bookshelf'
 import Header from '../Components/Header/Header'
 import Biography from '../Components/Biography/Biography'
 import Contact from '../Components/Contact/Contact'
@@ -10,11 +9,10 @@ const Home = () => {
     return (
         <main>
             <Header />
-            <article className='body-container'>
+            <article className='body-container w-full'>
                 <Biography />
                 <Contact />
                 <Video />
-                {/* <Bookshelf /> */}
             </article>
             <Footer />
         </main>
