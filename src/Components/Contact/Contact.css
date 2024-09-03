@@ -38,9 +38,16 @@
 }
 
 .submit-btn{
-    border: solid 2px black;
     border-radius: 5px;
     background-color: var(--BG-COLOR-SIX);
     color: var(--BG-COLOR-TWO);
     box-shadow: var(--BORDER-THREE);
+    transition: all .25s linear;
+}
+
+.submit-btn:hover{
+    border-radius: 5px;
+    background-color: var(--BG-COLOR-TWO);
+    color: var(--BG-COLOR-SIX);
+    box-shadow: var(--BORDER-ELEVEN);
 }

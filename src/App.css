@@ -40,6 +40,9 @@
   --BORDER-TEN: 
   0 0 0 1px var(--BG-COLOR-TWO),
   0 0 0 3px var(--BG-COLOR-TWO);
+  --BORDER-ELEVEN: 
+  0 0 0 .5px var(--BG-COLOR-SIX),
+  0 0 0 1px var(--BG-COLOR-SIX);
 
   /* fonts */
   --FONT-ONE: "Amatic SC", sans-serif; 

@@ -78,7 +78,7 @@ const Contact = () => {
                             placeholder='Message'
                             onChange={(e) => setMessage(e.target.value)}></textarea>
                         <article className='w-full'>
-                            <button type='submit' className='submit-btn flex justify-start w-fit px-1'>Submit</button>
+                            <button type='submit' className='submit-btn flex text-xl justify-start w-fit px-1'>Submit</button>
                         </article>
                     </article>
 
