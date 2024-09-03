@@ -6,7 +6,7 @@
     width: fit-content;
     border-radius: 50%;
     background-color: var(--BG-COLOR-TWO);
-    color: var(--FONT-COLOR-ONE);
+    color: var(--BG-COLOR-SIX);
     box-shadow: var(--BORDER-TWO);
 }
 
@@ -20,7 +20,7 @@
 }
 
 .header-container{
-    background-color: var(--FONT-COLOR-ONE);
+    background-color: var(--BG-COLOR-SIX);
 }
 
 .form-input{
