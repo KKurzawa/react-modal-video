@@ -121,3 +121,24 @@
     position: relative;
   }
 
+  @media (max-width: 480px) {
+    .img-slider-btn > * {
+      stroke: var(--BG-COLOR-SIX);
+      fill: var(--BG-COLOR-TWO);
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    .img-slider-btn{
+      /* all: unset;
+      display: block; */
+      display: flex;
+      justify-items: center;
+      justify-content: center;
+      width: 1.5rem;
+      height: 1.5rem;
+      padding: .5px;
+      margin-top: 0;
+      /* cursor: pointer; */
+    }
+}

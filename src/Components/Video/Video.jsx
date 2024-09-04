@@ -23,12 +23,12 @@ const Video = () => {
 
     return (
         <>
-            <header id='Animations' className='animations-header-container flex justify-center w-full text-center relative pt-10'>
+            <header id='Animations' className='animations-header-container flex justify-center w-full text-center relative lg:pt-10'>
                 <h2 className='animations-title justify-items-center p-5 text-3xl'>Animations</h2>
             </header>
 
             <article className='animations-main flex flex-col justify-center items-center pt-5 pb-20'>
-                <main className='video-main relative px-[4.5rem] rounded-2xl w-[80%] lg:w-[65%] max-w-7xl'>
+                <main className='video-main relative px-10 md:px-[4.5rem] rounded-2xl w-[90%] lg:w-[65%] max-w-7xl'>
                     <article className='outer-video-container w-full h-full relative rounded-2xl'>
                         <section
                             className='inner-video-container flex relative w-full h-full overflow-hidden rounded-2xl' >
@@ -48,12 +48,12 @@ const Video = () => {
                             ))}
                         </section>
                         <button
-                            className='img-slider-btn ml-1 left-[-4.25rem]'
+                            className='img-slider-btn md:ml-1 left-[-2rem] md:left-[-4.25rem]'
                             onClick={showPrevImage}>
                             <ArrowBigLeft />
                         </button>
                         <button
-                            className='img-slider-btn mr-1 right-[-4.25rem]'
+                            className='img-slider-btn md:mr-1 right-[-2rem] md:right-[-4.25rem]'
                             onClick={showNextImage}>
                             <ArrowBigRight />
                         </button>

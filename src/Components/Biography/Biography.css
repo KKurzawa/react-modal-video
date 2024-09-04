@@ -16,8 +16,9 @@
     background-color: var(--BG-COLOR-TWO);
     color: var(--BG-COLOR-SIX);
     box-shadow: var(--BORDER-TWO);
-    
+    border-radius: 1.5rem;
 }
+
 .medium-profile-pic-container{
     border-radius: 50%;
    
@@ -30,6 +31,15 @@
     object-fit: cover;
     box-shadow: var(--BORDER-TWELVE);
     margin-left: -25px;
+}
+
+.medium-kresge-link{
+    transition: all .25s linear;
+}
+
+.medium-kresge-link:hover{
+    background-color: var(--BG-COLOR-SIX);
+    color: var(--BG-COLOR-TWO);
 }
 /* .medium-main-bio{
     position: relative;
