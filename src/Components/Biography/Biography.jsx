@@ -8,13 +8,43 @@ const Biography = () => {
     return (
         <>
             <header id='Biography' className='bio-header-container flex justify-center w-full text-center relative pt-5'>
-                <h2 className='bio-title justify-items-center p-5 text-4xl'>Meet Tamara</h2>
+                <h2 className='bio-title justify-items-center p-5 text-3xl'>Meet Tamara</h2>
             </header>
-            <main className='main-bio grid grid-cols-3 justify-center items-center justify-items-center gap-8 pt-5 pr-10 pl-10 pb-10'>
+            {/* medium */}
+            <main className='medium-main-bio lg:hidden relative p-6 mx-8 mt-5 mb-10 rounded-2xl'>
+                <article className='medium-pic-container relative'>
+                    <section className='medium-profile-pic-container flex justify-center relative float-left w-[15rem] h-[15rem]'>
+                        <img className='medium-profile-pic' src={Tamara} />
+                    </section>
+                    <section className='medium-bio-container'>
+                        <p className='relative text-2xl'>Tamara Finlay was born in Dearborn, MI, in 1979 and brought up by grandparents who emigrated to the U.S. from Ukraine after World War II. Growing up, she was scolded for “drawing ponies” when there were “more important” things to do. Her school career was spent taking academic classes, while sneaking in as much art as she could. The result: a bachelor’s degree in Slavic languages, a few credits shy of a fine arts minor from Brooklyn College. Since then, she has been a teacher, lead vocalist in three bands, studied stop motion, had a baby, been a refugee caseworker, and, in 2022, was diagnosed with ADHD.  In 2024 Tamara was awarded the <span>
+                            <button
+                                className='kresge-link underline underline-offset-2 h-fit rounded-lg px-1 pb-1'
+                                onClick={() => setTimeout(() => {
+                                    window.open('https://kresgeartsindetroit.org/artist/tamara-finlay/', '_blank')
+                                }, 500)}
+                            >Kresge Artist Fellowship</button>
+                        </span> for animation.</p>
+                    </section>
+                    <section className='medium-icon-container flex justify-start gap-2 rounded-2xl'>
+                        <button className='medium-icon-btn' onClick={() => setTimeout(() => {
+                            window.open('https://www.google.com/', '_blank')
+                        }, 500)}><FaInstagramSquare className='bio-icon' /></button>
+                        <button className='medium-icon-btn' onClick={() => setTimeout(() => {
+                            window.open('https://www.google.com/', '_blank')
+                        }, 500)}><FaYoutube className='bio-icon' /></button>
+                        <button className='medium-icon-btn' onClick={() => setTimeout(() => {
+                            window.open('https://www.google.com/', '_blank')
+                        }, 500)}><FaVimeo className='bio-icon' /></button>
+                    </section>
+                </article>
+            </main >
+            {/* large */}
+            <main className='main-bio hidden lg:grid grid-cols-3 justify-center items-center justify-items-center gap-8 pt-5 pr-10 pl-10 pb-10'>
                 <article className='image-container flex col-span-1'>
                     <img className='profile-pic p-5' src={Tamara} />
                 </article>
-                <article className='bio-container col-span-2 flex flex-col justify-center items-start w-full h-full gap-3 rounded-lg'>
+                <article className='bio-container col-span-2 flex flex-col justify-center items-start w-full h-full gap-3 rounded-2xl'>
                     <section className='bio-inner-container p-5 w-full h-auto rounded-2xl'>
                         <p className='bio p-3 text-xl'>Tamara Finlay was born in Dearborn, MI, in 1979 and brought up by grandparents who emigrated to the U.S. from Ukraine after World War II. Growing up, she was scolded for “drawing ponies” when there were “more important” things to do. Her school career was spent taking academic classes, while sneaking in as much art as she could. The result: a bachelor’s degree in Slavic languages, a few credits shy of a fine arts minor from Brooklyn College. Since then, she has been a teacher, lead vocalist in three bands, studied stop motion, had a baby, been a refugee caseworker, and, in 2022, was diagnosed with ADHD.  In 2024 Tamara was awarded the <span>
                             <button

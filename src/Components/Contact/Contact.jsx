@@ -49,7 +49,7 @@ const Contact = () => {
                 <h2 className='contact-title justify-items-center p-5 text-3xl'>Contact Me</h2>
             </header>
             <main className='contact-main flex flex-col items-center w-ful h-auto py-5'>
-                <form onSubmit={handleSubmit} className='contact-form col-start-1 flex flex-col items-center w-[50%] h-auto gap-1 rounded-2xl'>
+                <form onSubmit={handleSubmit} className='contact-form col-start-1 flex flex-col items-center w-[85%] lg:w-[50%] h-auto gap-1 rounded-2xl'>
                     <article className='form-container flex flex-col items-center gap-1 w-[90%] h-[90%] pb-5 pt-10'>
                         <input
                             className='form-input w-full'

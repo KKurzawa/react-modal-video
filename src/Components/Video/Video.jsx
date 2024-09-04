@@ -28,7 +28,7 @@ const Video = () => {
             </header>
 
             <article className='animations-main flex flex-col justify-center items-center pt-5 pb-20'>
-                <main className='video-main relative px-[4.5rem] rounded-2xl w-[65%] max-w-7xl'>
+                <main className='video-main relative px-[4.5rem] rounded-2xl w-[80%] lg:w-[65%] max-w-7xl'>
                     <article className='outer-video-container w-full h-full relative rounded-2xl'>
                         <section
                             className='inner-video-container flex relative w-full h-full overflow-hidden rounded-2xl' >
@@ -74,7 +74,7 @@ const Video = () => {
                 <button onClick={() => setTimeout(() => {
                     const topButton = document.getElementById('Top');
                     topButton.scrollIntoView({ behavior: 'smooth' })
-                }, 500)} className='top-btn justify-items-center p-2 text-3xl my-4'>To The Top</button>
+                }, 500)} className='top-btn justify-items-center p-2 text-2xl lg:text-3xl my-2 lg:my-4'>To The Top</button>
             </article>
         </>
     )
