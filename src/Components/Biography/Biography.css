@@ -30,9 +30,13 @@
     width: 80%;
     object-fit: cover;
     box-shadow: var(--BORDER-TWELVE);
+    filter: sepia(.5);
     margin-left: -25px;
 }
 
+.medium-bio{
+    line-height: 0;
+}
 .medium-kresge-link{
     transition: all .25s linear;
 }
